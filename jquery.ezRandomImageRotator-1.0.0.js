@@ -1,7 +1,7 @@
 /*
  *  jQuery ezRandomImageRotator 1.0.0
  *  Demo's and documentation:
- *  https://github.com/mwitek/jQuery-ezImageRotator
+ *  https://github.com/mwitek/jQuery-ezRandomImageRotator
  *
  *  Author: Matthew Witek
  *  www.mwitekdesign.com
@@ -10,6 +10,7 @@
  *  http://en.wikipedia.org/wiki/MIT_License
  *  http://en.wikipedia.org/wiki/GNU_General_Public_License
  */ 
+ 
  (function ($) {
     $.fn.extend({
 
