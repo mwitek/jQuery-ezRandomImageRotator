@@ -51,7 +51,7 @@
                 base.each(function (index, value) {
                     var $image = $(value);
                     var randomValue = Math.floor(Math.random() * allImagesToRotateCopy.length);
-                    $image.wrap('<div class="' + baseSelector.replace(/\./g, ' ').trim() + '_' + (index + 1) + ' ' + o.wrapperClass + '" />');
+                    $image.wrap('<div class="' + baseSelector.replace(/\./g, '') + '_' + (index + 1) + ' ' + o.wrapperClass + '" />');
                     $image.attr('src', allImagesToRotateCopy[randomValue]);
                     allImagesToRotateCopy.splice(randomValue, 1);
                 });
